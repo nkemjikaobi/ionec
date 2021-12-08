@@ -1,0 +1,37 @@
+.inputGroup {
+	display: flex;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+label {
+	font-weight: 700;
+	font-size: 1.125rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+input[type='date'],
+input[type='number'] {
+	height: 3.125rem;
+	width: 18.75rem;
+	border-radius: 0.313rem;
+	padding: 0.313rem;
+}
+
+.inputItem {
+	display: flex;
+	flex-direction: column;
+	margin-right: 2rem;
+}
+button {
+    background-color: rgb(11, 102, 221);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0.313rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}

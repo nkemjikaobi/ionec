@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './CreditCardDetails.module.css';
 import Icon from '../Icons/index';
 import { creditCardData } from './CreditCardData';
+import InputFields from '../InputFields/InputFields';
 
 const CreditCardDetails = () => {
 	return (
@@ -16,6 +17,7 @@ const CreditCardDetails = () => {
 					);
 				})}
 			</div>
+			<InputFields />
 		</div>
 	);
 };
