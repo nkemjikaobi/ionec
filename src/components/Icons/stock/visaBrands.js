@@ -11,7 +11,7 @@ const SVG = props => (
 		focusable='false'
 		data-prefix='fab'
 		data-icon='cc-visa'
-		class='svg-inline--fa fa-cc-visa fa-w-18'
+		className='svg-inline--fa fa-cc-visa fa-w-18'
 		role='img'
 		xmlns='http://www.w3.org/2000/svg'
 		viewBox='0 0 576 512'

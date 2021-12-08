@@ -1,0 +1,12 @@
+.creditCardDetailsWrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+}
+.iconsWrapper {
+	display: flex;
+}
+.icons {
+	width: 3.125rem;
+	margin-right: 1.5rem;
+}
