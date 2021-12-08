@@ -1,17 +1,18 @@
-import Header from "./components/Header/Header";
-import styles from "./App.module.css"
-import PaymentSection from "./components/PaymentSection/PaymentSection";
+import Header from './components/Header/Header';
+import styles from './App.module.css';
+import PaymentSection from './components/PaymentSection/PaymentSection';
 
 const App = () => {
-  return (
+	return (
 		<div className={styles.container}>
 			<Header />
 			<hr />
 			<div className={styles.payment}>
 				<PaymentSection />
 			</div>
+			<hr />
 		</div>
 	);
-}
+};
 
 export default App;

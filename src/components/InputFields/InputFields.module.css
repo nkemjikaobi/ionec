@@ -15,6 +15,7 @@ input[type='number'] {
 	width: 18.75rem;
 	border-radius: 0.313rem;
 	padding: 0.313rem;
+	background-color: rgb(247, 245, 245);
 }
 
 .inputItem {
