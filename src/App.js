@@ -1,7 +1,10 @@
+import Header from "./components/Header/Header";
+import styles from "./App.module.css"
+
 const App = () => {
   return (
-    <div>
-      Vamoss
+    <div className={styles.container}>
+      <Header />
     </div>
   );
 }
