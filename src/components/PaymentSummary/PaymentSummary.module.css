@@ -14,11 +14,12 @@ h5 {
 	align-items: center;
 }
 span {
-    color: gray;
+	color: gray;
 }
 
 @media (max-width: 768px) {
-	.paymentSummaryWrapper{
+	.paymentSummaryWrapper {
 		width: 18.75rem;
+		margin-left: 0.625rem;
 	}
 }

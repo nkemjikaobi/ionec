@@ -27,4 +27,7 @@ button {
 	.paymentSummaryWrapper {
 		width: 18.75rem;
 	}
+	.footer {
+		justify-content: space-evenly;
+	}
 }

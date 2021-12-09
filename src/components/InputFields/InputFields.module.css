@@ -29,7 +29,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50px;
+	height: 3.125rem;
 	border-radius: 0.313rem;
 	margin-top: 2rem;
 	color: #fff;
@@ -41,6 +41,10 @@ button {
 @media (max-width: 768px) {
 	.inputGroup {
 		flex-direction: column;
+	}
+	.inputItem {
+		width: -webkit-fill-available;
+		margin-left: 0.625rem;
 	}
 	label {
 		font-weight: 400;
@@ -54,6 +58,7 @@ button {
 		font-size: 0.5rem;
 	}
 	.addCardButton {
-		width: 80%;
+		width: 75%;
+		margin-left: 0.625rem;
 	}
 }

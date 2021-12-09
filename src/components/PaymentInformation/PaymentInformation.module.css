@@ -26,5 +26,9 @@
 	.paymentInformationWrapper img {
 		height: 12.75rem;
 		width: 20rem;
+		margin-left: 0.625rem;
+	}
+	.paymentInformationWrapper {
+		margin: 0 auto;
 	}
 }
