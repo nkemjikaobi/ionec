@@ -1,3 +1,6 @@
+LIVE LINK
+https://ionec.herokuapp.com/
+
 To run this app locally
 
 ### `yarn install`
