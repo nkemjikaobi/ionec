@@ -19,6 +19,12 @@ button {
 	font-size: 1rem;
 	font-weight: 400;
 }
-.completePaymentButton{
+.completePaymentButton {
 	width: 25%;
+}
+
+@media (max-width: 768px) {
+	.paymentSummaryWrapper {
+		width: 18.75rem;
+	}
 }

@@ -12,3 +12,19 @@
 .paymentInformationWrapper img {
 	height: 18.75rem;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+	.paymentInformationWrapper h3 {
+		font-weight: 400;
+		font-size: 1rem;
+		margin-left: 0.7rem;
+	}
+	.paymentInformationWrapper p {
+		margin-left: 0.7rem;
+	}
+	.paymentInformationWrapper img {
+		height: 12.75rem;
+		width: 20rem;
+	}
+}

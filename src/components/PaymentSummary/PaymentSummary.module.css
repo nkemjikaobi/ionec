@@ -16,3 +16,9 @@ h5 {
 span {
     color: gray;
 }
+
+@media (max-width: 768px) {
+	.paymentSummaryWrapper{
+		width: 18.75rem;
+	}
+}

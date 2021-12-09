@@ -13,3 +13,14 @@
 	width: 3.125rem;
 	margin-right: 4rem;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+	.headerWrapper {
+		flex-direction: column;
+	}
+	.headerWrapper p {
+		font-weight: 400;
+		font-size: 1rem;
+	}
+}

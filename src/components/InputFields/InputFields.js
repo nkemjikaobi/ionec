@@ -37,7 +37,7 @@ const InputFields = () => {
 					</label>
 				</div>
 				<div>
-					<button type='submit'>Add Card</button>
+					<button className={styles.addCardButton} type='submit'>Add Card</button>
 				</div>
 			</form>
 		</div>

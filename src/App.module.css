@@ -5,3 +5,11 @@
 .payment {
 	margin-bottom: 2rem;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+	.container {
+		max-width: 768px;
+		margin: 1rem auto;
+	}
+}

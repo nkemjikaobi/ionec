@@ -24,15 +24,36 @@ input[type='number'] {
 	margin-right: 2rem;
 }
 button {
-    background-color: rgb(11, 102, 221);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border-radius: 0.313rem;
-    margin-top: 2rem;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
+	background-color: rgb(11, 102, 221);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-radius: 0.313rem;
+	margin-top: 2rem;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+/* Tablets and under */
+@media (max-width: 768px) {
+	.inputGroup {
+		flex-direction: column;
+	}
+	label {
+		font-weight: 400;
+		font-size: 1rem;
+	}
+	input[type='date'],
+	input[type='number'] {
+		height: 3.125rem;
+	}
+	#next-time {
+		font-size: 0.5rem;
+	}
+	.addCardButton {
+		width: 80%;
+	}
 }

@@ -3,3 +3,10 @@
 	justify-content: space-evenly;
 	align-items: flex-start;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+	.paymentSectionWrapper {
+		flex-direction: column;
+	}
+}
