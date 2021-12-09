@@ -1,6 +1,8 @@
 import Header from './components/Header/Header';
 import styles from './App.module.css';
 import PaymentSection from './components/PaymentSection/PaymentSection';
+import PaymentSummary from './components/PaymentSummary/PaymentSummary';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 	return (
@@ -11,6 +13,9 @@ const App = () => {
 				<PaymentSection />
 			</div>
 			<hr />
+			<PaymentSummary />
+			<hr />
+			<Footer />
 		</div>
 	);
 };

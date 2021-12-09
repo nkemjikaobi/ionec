@@ -1,0 +1,18 @@
+.paymentSummaryWrapper {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.325rem !important;
+	font-weight: 700;
+}
+h4,
+h5 {
+	text-transform: capitalize;
+}
+.subTotalItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+span {
+    color: gray;
+}
