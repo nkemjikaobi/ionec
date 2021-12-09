@@ -1,7 +1,7 @@
 import React from 'react'
 import CreditCardDetails from '../CreditCardDetails/CreditCardDetails'
 import PaymentInformation from '../PaymentInformation/PaymentInformation'
-import styles from './PaymentSection.module.css';
+import styles from '../../components/PaymentSection/PaymentSection.module.css';
 
 const PaymentSection = () => {
     return (
