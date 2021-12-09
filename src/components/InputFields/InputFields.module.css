@@ -1,7 +1,6 @@
 .inputGroup {
 	display: flex;
-	margin-bottom: 2rem;
-	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 label {
 	font-weight: 700;
@@ -25,7 +24,7 @@ input[type='number'] {
 }
 button {
 	background-color: rgb(11, 102, 221);
-	width: 100%;
+	width: 95%;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -1,8 +1,9 @@
 .paymentSummaryWrapper {
 	display: flex;
 	flex-direction: column;
-	font-size: 1.325rem !important;
+	font-size: 1.2rem !important;
 	font-weight: 700;
+	padding: 3rem;
 }
 h4,
 h5 {

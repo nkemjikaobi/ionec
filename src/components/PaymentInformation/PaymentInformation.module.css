@@ -1,5 +1,5 @@
 .paymentInformationWrapper {
-	width: 100%;
+	margin-left: 1.25rem;
 }
 .paymentInformationWrapper p {
 	color: gray;
@@ -10,7 +10,7 @@
 	font-size: 1.375rem;
 }
 .paymentInformationWrapper img {
-	height: 18.75rem;
+	width: 70%;
 }
 
 /* Tablets and under */
